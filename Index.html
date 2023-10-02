@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body class="light-mode">
+    <button id="darkModeToggle" class="toggle-button"><img src="Images/darkmode.png" alt=""></button>
+
+    <div class="card-container">
+
+        <div class="card1">
+            <div class="weather-yes">
+                 <h1 class="heading">Yesterday</h1>
+                 <img src="Images/rain.png" class="weather-icon">
+                 <h1 class="tempyes">22°C</h1>
+                 <div class="details">
+                     <div class="col">
+                         <img src="Images/humidity.png">
+                         <div>
+                             <p class="humidityyes">50%</p>
+                             <p>Humidity</p>
+                         </div>
+                     </div>
+                     <div class="col">
+                         <img src="Images/wind.png">
+                         <div>
+                             <p class="windyes">15 km/h</p>
+                             <p>Wind Speed</p>
+                         </div>
+                     </div>
+                 </div>
+            </div>
+            <div class="weather-dayyes">
+             <h1 class="heading">Day Before Yesterday</h1>
+             <img src="Images/rain.png" class="weather-icon">
+                 <h1 class="tempdayyees">22°C</h1>
+                 <div class="details">
+                     <div class="col">
+                         <img src="Images/humidity.png">
+                         <div>
+                             <p class="humiditydayyees">50%</p>
+                             <p>Humidity</p>
+                         </div>
+                     </div>
+                     <div class="col">
+                         <img src="Images/wind.png">
+                         <div>
+                             <p class="winddayyees">15 km/h</p>
+                             <p>Wind Speed</p>
+                         </div>
+                     </div>
+                 </div>
+            </div>
+         </div>
+ 
+
+        <div class="card2">
+
+            <div class="search">
+                <input type="text" placeholder="Enter city name" spellcheck="false">
+                <button><img src="Images/search.png" alt=""></button>
+            </div>
+
+            <div class="error">
+                <p>Invalid City Name</p>
+            </div>
+
+            <div class="weather">
+                <img src="Images/rain.png" class="weather-icon">
+                <h1 class="temp">22°c</h1>
+                <h2 class="city">New York</h2>
+                <div class="details">
+                    <div class="col">
+                        <img src="Images/humidity.png">
+                        <div>
+                            <p class="humidity">50%</p>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="Images/wind.png">
+                        <div>
+                            <p class="wind">15 km/h</p>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="card3">
+            <div class="weather-tmr">
+                <h1 class="heading">Tomorrow</h1>
+                <img src="Images/rain.png" class="weather-icon">
+                <h1 class="temptmr">22°C</h1>
+                <div class="details">
+                    <div class="col">
+                        <img src="Images/humidity.png">
+                        <div>
+                            <p class="humiditytmr">50%</p>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="Images/wind.png">
+                        <div>
+                            <p class="windtmr">15 km/h</p>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                </div>
+           </div>
+           <div class="weather-daytmr">
+            <h1 class="heading">Day After Tomorrow</h1>
+            <img src="Images/rain.png" class="weather-icon">
+                <h1 class="tempdaytmr">22°C</h1>
+                <div class="details">
+                    <div class="col">
+                        <img src="Images/humidity.png">
+                        <div>
+                            <p class="humiditydaytmr">50%</p>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="Images/wind.png">
+                        <div>
+                            <p class="winddaytmr">15 km/h</p>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
